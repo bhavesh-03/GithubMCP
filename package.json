@@ -1,11 +1,27 @@
 {
-  "name": "github-mcp-server",
-  "version": "1.0.0",
-  "description": "A free GitHub MCP server for VS Code Copilot",
+  "name": "@bhavesh2003/githubmcp",
+  "version": "1.0.1",
+  "description": "A free GitHub MCP server for VS Code Copilot — search repos, push code, manage issues & PRs",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "GithubMCP": "src/index.js"
+  },
   "scripts": {
     "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "copilot",
+    "vscode",
+    "model-context-protocol"
+  ],
+  "author": "bhavesh-03",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhavesh-03/githubMcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",

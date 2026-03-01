@@ -9,7 +9,7 @@ const octokit = new Octokit({
 });
 
 const server = new McpServer({
-  name: "github-mcp-server",
+  name: "GithubMCP",
   version: "1.0.0",
   description: "Free GitHub MCP Server — search repos, manage issues, PRs, and more",
 });
