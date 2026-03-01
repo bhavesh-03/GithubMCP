@@ -1,0 +1,14 @@
+{
+  "name": "github-mcp-server",
+  "version": "1.0.0",
+  "description": "A free GitHub MCP server for VS Code Copilot",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@octokit/rest": "^21.1.1"
+  }
+}
